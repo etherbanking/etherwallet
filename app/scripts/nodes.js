@@ -25,7 +25,7 @@ nodes.nodeList = {
         'blockExplorerAddr': 'https://scan.ebcoin.io/address/[[address]]',
         'type': nodes.nodeTypes.ETH,
         'eip155': true,
-        'chainId': 1,
+        'chainId': 82870892,
         'tokenList': require('./tokens/ethTokens.json'),
         'abiList': require('./abiDefinitions/ethAbi.json'),
         'service': 'MyEbcWallet',
