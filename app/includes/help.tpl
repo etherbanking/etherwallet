@@ -3,7 +3,7 @@
 
   <h1 translate="NAV_Help"> Help </h1>
 
-  <h3><a href="https://myetherwallet.groovehq.com/help_center" target="_blank" rel="noopener">
+  <h3><a href="https://MyEbcWallet.groovehq.com/help_center" target="_blank" rel="noopener">
     This page is slowly being deprecated. Please check out our more up-to-date and searchable Help Center.
   </a></h3>
 
@@ -104,7 +104,7 @@
   <article class="collapse-container">
     <div ng-click="h2b = !h2b">
       <a class="collapse-button" ><span ng-show="!h2b">+</span><span ng-show="h2b">-</span></a>
-      <h4 translate="HELP_2b_Title"> 2b. How do I safely / offline / cold storage with MyEtherWallet? </h4>
+      <h4 translate="HELP_2b_Title"> 2b. How do I safely / offline / cold storage with MyEbcWallet? </h4>
     </div>
     <div ng-show="h2b">
       <ol>
@@ -180,7 +180,7 @@
   <article class="collapse-container">
     <div ng-click="h4cx = !h4cx">
       <a class="collapse-button" ><span ng-show="!h4cx">+</span><span ng-show="h4cx">-</span></a>
-      <h4 translate="HELP_4CX_Title">4. How do I send Ether using MyEtherWallet CX? </h4>
+      <h4 translate="HELP_4CX_Title">4. How do I send Ether using MyEbcWallet CX? </h4>
     </div>
     <div ng-show="h4cx">
       <p translate="HELP_4CX_Desc_1">First, you need to add a wallet. Once you have done that, you have 2 options: the "QuickSend" functionality from the Chrome Extension icon or the "Send Ether" page.</p>
@@ -231,7 +231,7 @@
       <li translate="HELP_2b_Desc_4">Unzip it and double-click `index.html`.</li>
       <li translate="HELP_5_Desc_7">myebcwallet.com is now running entirely on your computer.</li>
     </ol>
-    <p translate="HELP_5_Desc_8"> In case you are not familiar, you need to keep the entire folder in order to run the website, not just index.html. Don't touch or move anything around in the folder. If you are storing a backup of the MyEtherWallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact.</p>
+    <p translate="HELP_5_Desc_8"> In case you are not familiar, you need to keep the entire folder in order to run the website, not just index.html. Don't touch or move anything around in the folder. If you are storing a backup of the MyEbcWallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact.</p>
     <p translate="HELP_5_Desc_9"> As we are constantly updating myebcwallet.com, we recommend you periodically update your saved version of the repo. </p>
     </div>
   </article>
@@ -269,7 +269,7 @@
       <ul>
         <li> Verify the URL you entered is correct. </li>
         <li> Verify the port you entered is correct. </li>
-        <li> Verify that if you are connecting to an http:// node you are running MyEtherWallet locally (NOT over https://). </li>
+        <li> Verify that if you are connecting to an http:// node you are running MyEbcWallet locally (NOT over https://). </li>
         <li> Verify geth is running with <code>geth --rpc --rpccorsdomain "null" --keystore "dont_put_secret_files_here_ever"</code> or parity is running with <code>parity --rpccorsdomain "*" --keys-path "dont_put_secret_files_here_ever"</code> </li>
         <li> Verify your node is actually up and running. </li>
         <li> Try removing the node and adding it again. </li>
@@ -316,10 +316,10 @@
       <h4 translate="HELP_8_Title">8. What happens if your site goes down? </h4>
     </div>
     <div ng-show="h8">
-      <p translate="HELP_8_Desc_1">MyEtherWallet is not a web wallet. You don't have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain.</p>
-      <p translate="HELP_8_Desc_2">If myebcwallet.com goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn't have to "get" your Ether out of MyEtherWallet because it's not in MyEtherWallet. It's in whatever wallet your generated via our site.</p>
+      <p translate="HELP_8_Desc_1">MyEbcWallet is not a web wallet. You don't have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain.</p>
+      <p translate="HELP_8_Desc_2">If myebcwallet.com goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn't have to "get" your Ether out of MyEbcWallet because it's not in MyEbcWallet. It's in whatever wallet your generated via our site.</p>
       <p translate="HELP_8_Desc_3"> You can import your unencrypted private key and your Geth/Mist Format (encrypted) files directly into geth / Ethereum Wallet / Mist very easily now. See question #10 below. </p>
-      <p translate="HELP_8_Desc_4">In addition, the likelihood of us taking MyEtherWallet down is slim to none. It costs us almost nothing to maintain as we aren't storing any information. If we do take the domain down, it still is, and always will be, publicly available at <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages" target="_blank" rel="noopener">https://github.com/kvhnuke/etherwallet</a>. You can download the ZIP there and run it locally. </p>
+      <p translate="HELP_8_Desc_4">In addition, the likelihood of us taking MyEbcWallet down is slim to none. It costs us almost nothing to maintain as we aren't storing any information. If we do take the domain down, it still is, and always will be, publicly available at <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages" target="_blank" rel="noopener">https://github.com/kvhnuke/etherwallet</a>. You can download the ZIP there and run it locally. </p>
     </div>
   </article>
 }
@@ -330,12 +330,12 @@
   <article class="collapse-container">
     <div  ng-click="h8cx = !h8cx">
       <a class="collapse-button"><span ng-show="!h8cx">+</span><span ng-show="h8cx">-</span></a>
-      <h4 translate="HELP_8CX_Title">8. What happens if MyEtherWallet CX disappears? </h4>
+      <h4 translate="HELP_8CX_Title">8. What happens if MyEbcWallet CX disappears? </h4>
     </div>
     <div ng-show="h8cx">
       <p translate="HELP_8CX_Desc_1">First, all data is saved on your computer, not our servers. I know it can be confusing, but when you look at the Chrome Extension, you are NOT looking at stuff saved on our servers somewhere - it's all saved on your own computer.</p>
-      <p translate="HELP_8CX_Desc_2"> That said, it is **very important** that you back up all your information for any new wallets generated with MyEtherWallet CX. That way if anything happens to MyEtherWallet CX or your computer, you still have all the information necessary to access your Ether. See the #2a for how to back up your wallets.</p>
-      <p translate="HELP_8CX_Desc_3"> If for some reason MyEtherWallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above.</p>
+      <p translate="HELP_8CX_Desc_2"> That said, it is **very important** that you back up all your information for any new wallets generated with MyEbcWallet CX. That way if anything happens to MyEbcWallet CX or your computer, you still have all the information necessary to access your Ether. See the #2a for how to back up your wallets.</p>
+      <p translate="HELP_8CX_Desc_3"> If for some reason MyEbcWallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above.</p>
     </div>
   </article>
 }
@@ -382,10 +382,10 @@
   <article class="collapse-container">
     <div ng-click="h12 = !h12">
       <a class="collapse-button" ><span ng-show="!h12">+</span><span ng-show="h12">-</span></a>
-      <h4 translate="HELP_12_Title">12. How do I import a wallet created with MyEtherWallet into geth / Ethereum Wallet / Mist?</h4>
+      <h4 translate="HELP_12_Title">12. How do I import a wallet created with MyEbcWallet into geth / Ethereum Wallet / Mist?</h4>
     </div>
     <div ng-show="h12">
-      <p class="strong" translate="HELP_12_Desc_1"> Using an Geth/Mist JSON file from MyEtherWallet v2+....</p>
+      <p class="strong" translate="HELP_12_Desc_1"> Using an Geth/Mist JSON file from MyEbcWallet v2+....</p>
       <ol>
         @@if (site === 'mew' ) {
           <li translate="HELP_12_Desc_2"> Go to the "View Wallet Info" page.</li>
@@ -447,7 +447,7 @@
   <article class="collapse-container">
     <div ng-click="h14 = !h14" >
       <a class="collapse-button"><span ng-show="!h14">+</span><span ng-show="h14">-</span></a>
-        <h4 translate="HELP_14_Title"> 14. Some sites randomize (seed) the private key generation via mouse movements. myebcwallet.com doesn't do this. Is the random number generation for MyEtherWallet safe?</h4>
+        <h4 translate="HELP_14_Title"> 14. Some sites randomize (seed) the private key generation via mouse movements. myebcwallet.com doesn't do this. Is the random number generation for MyEbcWallet safe?</h4>
       </div>
       <div ng-show="h14">
         <p translate="HELP_14_Desc_1">While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren't unsafe, it's just that we (and tons of other crypto experments) believe in window.crypto. In addition, myebcwallet.com can be used on touch devices. Here's a <a href="https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm" target="_blank" rel="noopener">conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto</a> and here is the <a href="https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto" target="_blank" rel="noopener">the window.crypto w3 spec</a>.</p>
@@ -556,7 +556,7 @@
   <article class="collapse-container">
     <div ng-click="hSecCX = !hSecCX">
       <a class="collapse-button" ><span ng-show="!hSecCX">+</span><span ng-show="hSecCX">-</span></a>
-      <h4 translate="HELP_SecCX_Title">Security - MyEtherWallet CX </h4>
+      <h4 translate="HELP_SecCX_Title">Security - MyEbcWallet CX </h4>
     </div>
     <div ng-show="hSecCX">
       <h6 translate="HELP_SecCX_Desc_1"> Where is this extension saving my information?</h6>
@@ -580,7 +580,7 @@
     <div ng-show="hSec">
       <p translate="HELP_Sec_Desc_1"> If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears. </p>
       <ul>
-        <li translate="HELP_Sec_Desc_2">We've been up and running since August 2015. If you search for <a href="https://www.reddit.com/search?q=myetherwallet" target="_blank" rel="noopener" />"myetherwallet" on reddit</a>, you can see numerous people who use us with great success.</li>
+        <li translate="HELP_Sec_Desc_2">We've been up and running since August 2015. If you search for <a href="https://www.reddit.com/search?q=MyEbcWallet" target="_blank" rel="noopener" />"MyEbcWallet" on reddit</a>, you can see numerous people who use us with great success.</li>
         <li translate="HELP_Sec_Desc_3">We aren't going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" pages are completely client-side. That means that all the code is executed on ** your computer** and it is never saved and transmitted anywhere.</li>
         <li translate="HELP_Sec_Desc_4"> Check the URL -- This site is being served through GitHub and you can see the source code here: <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages" target="_blank" rel="noopener">https://github.com/kvhnuke/etherwallet/tree/gh-pages</a> to the domains: <a href="http://kvhnuke.github.io/etherwallet/" target="_blank" rel="noopener">http://kvhnuke.github.io/etherwallet/</a> and <a href="https://www.myebcwallet.com" target="_blank" rel="noopener">https://www.myebcwallet.com</a>. You can verify it's hosted at GitHub by using <a href="http://viewdns.info/dnsrecord/?domain=myebcwallet.com" target="_blank" rel="noopener">http://viewdns.info/dnsrecord/?domain=myebcwallet.com</a> - last two A record IPs are owned by GitHub for their custom domain hosting.</li>
         <li translate="HELP_Sec_Desc_5"> For generating wallets, you can download the <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages">source code</a>. See #5 above.</li>

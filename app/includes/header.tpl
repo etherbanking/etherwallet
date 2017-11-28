@@ -9,21 +9,19 @@
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
-<link rel="apple-touch-icon" sizes="180x180" href="/images/fav/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/fav/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
+
 <link rel="manifest" href="/images/fav/manifest.json">
-<link rel="mask-icon" href="/images/fav/safari-pinned-tab.svg" color="#2f99b0">
-<link rel="shortcut icon" href="/images/fav/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet">
-<meta name="application-name" content="MyEtherWallet">
+
+<link rel="shortcut icon" href="/images/fav/ico.png">
+<meta name="apple-mobile-web-app-title" content="MyEbcWallet">
+<meta name="application-name" content="MyEbcWallet">
 <meta name="msapplication-config" content="/images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta property="og:url" content="https://www.myebcwallet.com" />
-<meta property="og:title" content="myebcwallet.com" /><meta property="og:image" content="/images/myetherwallet-logo-banner.png" /><meta property="og:image" content="/images/myetherwallet-logo.png" /><meta property="og:image" content="/images/myetherwallet-logo-square.png" /><meta property="og:image" content="/images/myetherwallet-banner-fun.jpg" />
+<meta property="og:title" content="myebcwallet.com" /><meta property="og:image" content="/images/MyEbcWallet-logo-banner.png" /><meta property="og:image" content="/images/MyEbcWallet-logo.png" /><meta property="og:image" content="/images/MyEbcWallet-logo-square.png" /><meta property="og:image" content="/images/MyEbcWallet-banner-fun.jpg" />
 <meta property="og:description" content="myebcwallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet." />
-<script type='application/ld+json'>{"@context":"http://schema.org","@type":"Organization","@id":"#organization","url":"https://www.myebcwallet.com/","name":"MyEtherWallet",
-"logo":"https://myebcwallet.com/images/myetherwallet-logo-banner.png","description": "myebcwallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.","sameAs":["https://www.myebcwallet.com/","https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm","https://www.facebook.com/MyEtherWallet/","https://twitter.com/myetherwallet","https://medium.com/@myetherwallet_96408","https://myetherwallet.groovehq.com/help_center","https://github.com/kvhnuke/etherwallet","https://github.com/MyEtherWallet","https://kvhnuke.github.io/etherwallet/","https://github.com/kvhnuke/etherwallet/releases/latest","https://github.com/409H/EtherAddressLookup","https://myetherwallet.slack.com/","https://myetherwallet.herokuapp.com/","https://www.reddit.com/r/MyEtherWallet/","https://www.reddit.com/user/insomniasexx/","https://www.reddit.com/user/kvhnuke/","https://www.reddit.com/user/myetherwallet"]}</script>
+<script type='application/ld+json'>{"@context":"http://schema.org","@type":"Organization","@id":"#organization","url":"https://www.myebcwallet.com/","name":"MyEbcWallet",
+"logo":"https://myebcwallet.com/images/MyEbcWallet-logo-banner.png","description": "myebcwallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.","sameAs":["https://www.myebcwallet.com/","https://chrome.google.com/webstore/detail/MyEbcWallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm","https://www.facebook.com/MyEbcWallet/","https://twitter.com/MyEbcWallet","https://medium.com/@MyEbcWallet_96408","https://MyEbcWallet.groovehq.com/help_center","https://github.com/kvhnuke/etherwallet","https://github.com/MyEbcWallet","https://kvhnuke.github.io/etherwallet/","https://github.com/kvhnuke/etherwallet/releases/latest","https://github.com/409H/EtherAddressLookup","https://MyEbcWallet.slack.com/","https://MyEbcWallet.herokuapp.com/","https://www.reddit.com/r/MyEbcWallet/","https://www.reddit.com/user/insomniasexx/","https://www.reddit.com/user/kvhnuke/","https://www.reddit.com/user/MyEbcWallet"]}</script>
 </head>
 <body>
 <header class="{{curNode.name}} {{curNode.service}} {{curNode.service}} nav-index-{{gService.currentTab}}" aria-label="header" ng-controller='tabsCtrl' >
@@ -40,12 +38,12 @@
     <section class="container">
       @@if (site === 'mew' ) {
         <a class="brand" href="https://www.myebcwallet.com/" aria-label="Go to homepage">
-          <img src="images/logo1.png"   height="64px" width="245px" alt="MyEtherWallet" />
+          <img src="images/logo1.png"   height="64px" width="245px" alt="MyEbcWallet" />
         </a>
       }
       @@if (site === 'cx'  ) {
         <a class="brand" href="/cx-wallet.html" aria-label="Go to homepage">
-          <img src="images/logo-myetherwalletcx.svg" height="64px" width="245px" alt="MyEtherWallet" />
+          <img src="images/logo-MyEbcWalletcx.svg" height="64px" width="245px" alt="MyEbcWallet" />
         </a>
       }
       <div class="tagline">
@@ -96,7 +94,7 @@
               <p class="small col-xs-4 text-center">Fast</p>
               <p class="small col-xs-4 text-right">Fast AF</p>
               <p class="small" style="white-space:normal;font-weight:300;margin: 2rem 0 0;" translate="GAS_PRICE_Desc"></p>
-              <a class="small" translate="x_ReadMore" href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener"></a>
+              <a class="small" translate="x_ReadMore" href="https://MyEbcWallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener"></a>
             </div>
           </ul>
         </span>
@@ -117,7 +115,7 @@
   @@if (site === 'mew' ) {
   <!--
     <div class="small announcement annoucement-warning">
-      <div class="container">⚠ Please beware of phishing websites. Do not enter your key on a website you arrived at by clicking a link. Use bookmarks. Always triple-check the domain. Ours is dot com. <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds" target="_blank" rel="noopener">You are responsible for your safety &amp; security</a>.</div>
+      <div class="container">⚠ Please beware of phishing websites. Do not enter your key on a website you arrived at by clicking a link. Use bookmarks. Always triple-check the domain. Ours is dot com. <a href="https://MyEbcWallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds" target="_blank" rel="noopener">You are responsible for your safety &amp; security</a>.</div>
     </div>
     -->
   }
@@ -132,7 +130,7 @@
         @@if (site === 'cx' ) {
         <li ng-repeat="tab in tabNames track by $index" class="nav-item {{tab.name}}" ng-class="{active: $index==gService.currentTab}" ng-show="tab.cx" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
         }
-        <li class="nav-item help"><a href="https://myetherwallet.groovehq.com/help_center" target="_blank" rel="noopener">Help</a></li>
+        <li class="nav-item help"><a href="https://MyEbcWallet.groovehq.com/help_center" target="_blank" rel="noopener">Help</a></li>
       </ul>
     </div>
     <a aria-hidden="true" ng-show="showRightArrow" class="nav-arrow-right" ng-click="scrollRight(100);" ng-mouseover="scrollHoverIn(false,2);" ng-mouseleave="scrollHoverOut()">&#187;</a>

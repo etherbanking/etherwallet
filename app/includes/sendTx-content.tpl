@@ -35,7 +35,7 @@
     <!-- Gas Limit -->
     <div class="row form-group">
       <div class="col-sm-11 clearfix">
-        <a class="account-help-icon" href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener">
+        <a class="account-help-icon" href="https://MyEbcWallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener">
           <img src="images/icon-help.svg" class="help-icon" />
           <p class="account-help-text" translate="GAS_LIMIT_Desc"></p>
         </a>
@@ -79,7 +79,7 @@
       <!-- Nonce -->
       <div class="row form-group" ng-show="checkTxPage">
         <div class="col-sm-11 clearfix">
-          <a class="account-help-icon" href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-nonce" target="_blank" rel="noopener">
+          <a class="account-help-icon" href="https://MyEbcWallet.groovehq.com/knowledge_base/topics/what-is-nonce" target="_blank" rel="noopener">
             <img src="images/icon-help.svg" class="help-icon" />
             <p class="account-help-text" translate="NONCE_Desc"></p>
           </a>
@@ -98,7 +98,7 @@
       <!-- Gas Price -->
       <div class="row form-group" ng-show="checkTxPage">
         <div class="col-sm-11 clearfix">
-          <a class="account-help-icon" href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener">
+          <a class="account-help-icon" href="https://MyEbcWallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener">
             <img src="images/icon-help.svg" class="help-icon" />
             <p class="account-help-text" translate="GAS_PRICE_Desc"></p>
           </a>
@@ -158,7 +158,7 @@
   <wallet-balance-drtv></wallet-balance-drtv>
 
   <div class="block" ng-show="globalService.currentTab==globalService.tabs.sendTransaction.id">
-    <p translate="sidebar_donation"> MyEtherWallet is a free, open-source service dedicated to your privacy and security. The more donations we receive, the more time we spend creating new features, listening to your feedback, and giving you what you want. We are just two people trying to change the world. Help us?</p>
+    <p translate="sidebar_donation"> MyEbcWallet is a free, open-source service dedicated to your privacy and security. The more donations we receive, the more time we spend creating new features, listening to your feedback, and giving you what you want. We are just two people trying to change the world. Help us?</p>
     <a class="btn btn-default btn-sm btn-block" ng-click="onDonateClick()" translate="sidebar_donate">DONATE</a>
     <div class="text-success text-center marg-v-sm" ng-show="tx.donate" translate="sidebar_thanks"> THANK YOU!!! </div>
   </div>

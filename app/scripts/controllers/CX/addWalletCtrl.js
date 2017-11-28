@@ -134,7 +134,7 @@ var addWalletCtrl = function($scope, $sce) {
         $scope.addWalletStats = "";
         try {
             if ($scope.walletType == "pasteprivkey" && $scope.requirePPass) {
-                $scope.wallet = Wallet.fromMyEtherWalletKey($scope.manualprivkey, $scope.privPassword);
+                $scope.wallet = Wallet.fromMyEbcWalletKey($scope.manualprivkey, $scope.privPassword);
                 $scope.addAccount.password = $scope.privPassword;
             } else if ($scope.walletType == "pasteprivkey" && !$scope.requirePPass) {
                 $scope.wallet = new Wallet($scope.manualprivkey);

@@ -152,7 +152,7 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
         $scope.wallet = null;
         try {
             if ($scope.showPDecrypt && $scope.requirePPass) {
-                $scope.wallet = Wallet.fromMyEtherWalletKey($scope.manualprivkey, $scope.privPassword);
+                $scope.wallet = Wallet.fromMyEbcWalletKey($scope.manualprivkey, $scope.privPassword);
                 walletService.password = $scope.privPassword;
             } else if ($scope.showPDecrypt && !$scope.requirePPass) {
                 if (!$scope.Validator.isValidHex($scope.manualprivkey)) {
