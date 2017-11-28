@@ -304,7 +304,7 @@ CX_quicksend                : 'Wyślij ',
 /* Node Switcher */
 NODE_Title                  : 'Zmień Domyślny Węzeł',
 NODE_Subtitle               : 'Aby połączyć się z lokalnym węzłem...',
-NODE_Warning                : 'Twój węzeł musi obsługiwać HTTPS, aby można było się połączyć z nim przez MyEtherWallet.com. Możesz pobrać [repozytorium MyEtherWallet](https://github.com/kvhnuke/etherwallet/releases/latest) i uruchomić lokalnie aby połączyć się z dowolnym węzłem. Możesz też pobrać darmowy certyfikat SSL przez [LetsEncrypt](https://letsencrypt.org/)',
+NODE_Warning                : 'Twój węzeł musi obsługiwać HTTPS, aby można było się połączyć z nim przez myebcwallet.com. Możesz pobrać [repozytorium MyEtherWallet](https://github.com/kvhnuke/etherwallet/releases/latest) i uruchomić lokalnie aby połączyć się z dowolnym węzłem. Możesz też pobrać darmowy certyfikat SSL przez [LetsEncrypt](https://letsencrypt.org/)',
 NODE_Name                   : 'Nazwa Węzła',
 NODE_Port                   : 'Port Węzła',
 NODE_CTA                    : 'Zapisz i Używaj Węzła',
@@ -429,10 +429,10 @@ TranslatorAddr_5            : '',
 
 /* Help - Nothing after this point has to be translated. If you feel like being extra helpful, go for it. */
 HELP_Warning                : 'Jeśli wygenerowałeś portfel -lub- ściągnąłeś repozytorium przed **31.12.2015**, sprawdź swoje portfele i ściągnij nową wersję repozytorium. Kliknij po szczegóły. ',
-HELP_Desc                   : 'Widzisz jakieś braki? Masz inne pytania? [Skontaktuj się z nami (tylko angielski)](mailto:support@myetherwallet.com), postaramy się odpowiedzieć, pomoże to nam również uaktualnić stronę aby w przyszłości była bardziej pomocna dla innych! ',
+HELP_Desc                   : 'Widzisz jakieś braki? Masz inne pytania? [Skontaktuj się z nami (tylko angielski)](mailto:support@myebcwallet.com), postaramy się odpowiedzieć, pomoże to nam również uaktualnić stronę aby w przyszłości była bardziej pomocna dla innych! ',
 HELP_Remind_Title           : 'W ramach uściślenia ',
-HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com i MyEtherWallet CX, jak również niektóre bazowe biblioteki Javascript, których używamy, są wciąż aktywnie rozwijane.** Pomimo tego, że dokładnie testujemy nasze oprogramowanie, pomimo że dziesiątki tysięcy portfeli zostało z powodzeniem wygenerowane przez użytkowników na całym świecie, zawsze istnieje pewne znikome prawdopodobieństwo, że nastąpi coś nieoczekiwanego, co spowoduje utratę Twoich środków. Nie inwestuj więc więcej niż jesteś gotów stracić i bądź ostrożny. Gdyby coś takiego się wydarzyło, będzie nam przykro, ale **nie weźmiemy za to odpowiedzialności**. ',
-HELP_Remind_Desc_2          : 'MyEtherWallet.com i MyEtherWallet CX nie są "portfelami internetowymi". Nie tworzysz kont internetowych i nie przekazujesz nam Twoich środków na przechowanie. W żadnym momencie Twoje klucze prywatne nie opuszczają Twojej przeglądarki/komputera. My jedynie ułatwiamy Ci tworzenie, zapisywanie, dostęp do twoich danych i interakcję z siecią Ethereum. ',
+HELP_Remind_Desc_1          : '**Ethereum, myebcwallet.com i MyEtherWallet CX, jak również niektóre bazowe biblioteki Javascript, których używamy, są wciąż aktywnie rozwijane.** Pomimo tego, że dokładnie testujemy nasze oprogramowanie, pomimo że dziesiątki tysięcy portfeli zostało z powodzeniem wygenerowane przez użytkowników na całym świecie, zawsze istnieje pewne znikome prawdopodobieństwo, że nastąpi coś nieoczekiwanego, co spowoduje utratę Twoich środków. Nie inwestuj więc więcej niż jesteś gotów stracić i bądź ostrożny. Gdyby coś takiego się wydarzyło, będzie nam przykro, ale **nie weźmiemy za to odpowiedzialności**. ',
+HELP_Remind_Desc_2          : 'myebcwallet.com i MyEtherWallet CX nie są "portfelami internetowymi". Nie tworzysz kont internetowych i nie przekazujesz nam Twoich środków na przechowanie. W żadnym momencie Twoje klucze prywatne nie opuszczają Twojej przeglądarki/komputera. My jedynie ułatwiamy Ci tworzenie, zapisywanie, dostęp do twoich danych i interakcję z siecią Ethereum. ',
 HELP_Remind_Desc_3          : 'Jeśli utracisz swój klucz prywatny lub zapomnisz hasło, nie będzie możliwości odzyskania dostępu do Twojego portfela oraz środków tam zgromadzonych. Wykonaj kopie bezpieczeństwa i przechowuj je w wielu fizycznie niezależnych miejscach, nie tylko na Twoim komputerze! ',
 
 HELP_0_Title                : '0) Jestem zielony. Od czego mam zacząć? ',
@@ -470,7 +470,7 @@ HELP_2b_Desc_8              : 'Przejdź na zakładkę "Wyświetl informacje o po
 HELP_3_Title                : '3) Jak zweryfikować czy mam dostęp do portfela? ',
 HELP_3_Desc_1               : '**Zanim wyślesz jakieś środki do Twojego nowego portfela** powinieneś się upewnić, że masz do niego dostęp. ',
 HELP_3_Desc_2               : 'Przejdź na zakładkę "Wyświetl informacje o portfelu". ',
-HELP_3_Desc_3               : 'Przejdź na zakładkę "Wyświetl informacje o portfelu" na stronie MyEtherWallet.com. ',
+HELP_3_Desc_3               : 'Przejdź na zakładkę "Wyświetl informacje o portfelu" na stronie myebcwallet.com. ',
 HELP_3_Desc_4               : 'Wybierz Twój plik portfela -lub- klucz prywatny i odblokuj portfel. ',
 HELP_3_Desc_5               : 'Jeżeli portfel jest szyfrowany automatycznie wyświetli się okienko tekstowe. Wpisz w nim hasło. ',
 HELP_3_Desc_6               : 'Kliknij przycisk "Odblokuj Portfel". ',
@@ -540,9 +540,9 @@ HELP_7_Desc_15              : 'Transakcja zostanie zatwierdzona. TX Hash zostani
 
 HELP_8_Title                : '8) Co się stanie, jeżeli wasza strona zniknie z sieci? ',
 HELP_8_Desc_1               : 'MyEtherWallet nie jest usługą portfela internetowego. Nie posiadasz loginu i nic nie jest zapisywane na naszych serwerach. To tylko interfejs, który pozwala korzystać z sieci Ethereum. ',
-HELP_8_Desc_2               : 'Jeżeli MyEtherWallet.com zostanie wyłączona, musiałbyś znaleźć inny sposób (jak Ethereum Wallet / Mist) na korzystanie z sieci Ethereum. Nie musiałbyś jednak wypłacić swoich środków z MyEtherWallet, ponieważ one nie znajdują się na MyEtherWallet, a na portfelach, które zostały wygenerowane za pomocą naszej strony. ',
+HELP_8_Desc_2               : 'Jeżeli myebcwallet.com zostanie wyłączona, musiałbyś znaleźć inny sposób (jak Ethereum Wallet / Mist) na korzystanie z sieci Ethereum. Nie musiałbyś jednak wypłacić swoich środków z MyEtherWallet, ponieważ one nie znajdują się na MyEtherWallet, a na portfelach, które zostały wygenerowane za pomocą naszej strony. ',
 HELP_8_Desc_3               : 'Możesz w każdej chwili, w bardzo prosty sposób, zaimportować swoje nieszyfrowane klucze prywatne lub szyfrowane pliki w formacie Geth/Mist wprost do geth / Ethereum Wallet / Mist. Zobacz pytanie 12 poniżej. ',
-HELP_8_Desc_4               : 'W dodatku prawdopodobieństwo zamknięcia przez nas strony MyEtherWallet.com jest bliskie zeru. Koszty utrzymania strony są prawie żadne, ponieważ nie przechowujmy żadnych informacji. Jeśli nawet strona zostanie zamknięta, jest ona również i zawsze będzie publicznie dostępna na [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). Możesz ściągnąć paczkę ZIP i uruchomić MyEtherWallet lokalnie na własnym komputerze. ',
+HELP_8_Desc_4               : 'W dodatku prawdopodobieństwo zamknięcia przez nas strony myebcwallet.com jest bliskie zeru. Koszty utrzymania strony są prawie żadne, ponieważ nie przechowujmy żadnych informacji. Jeśli nawet strona zostanie zamknięta, jest ona również i zawsze będzie publicznie dostępna na [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). Możesz ściągnąć paczkę ZIP i uruchomić MyEtherWallet lokalnie na własnym komputerze. ',
 
 HELP_8CX_Title              : '8) Co się stanie jeżeli MyEtherWallet CX zniknie? ',
 HELP_8CX_Desc_1             : 'Po pierwsze, wszystkie dane są zapisane na Twoim komputerze, nie na naszych serwerach. Wiem, że może Ci się to wydawać dziwne, ale kiedy patrzysz na Rozszerzenie Chrome, NIE patrzysz na coś zapisanego gdzieś na naszych serwerach - wszystko to jest na Twoim własnym komputerze. ',

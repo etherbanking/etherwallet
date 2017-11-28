@@ -1,8 +1,8 @@
 <section class="pre-footer">
   <div class="container">
-    <p>MyEtherWallet.com is a client-side interface &amp; does not hold your keys. We cannot access accounts, recover keys, reset passwords, nor reverse transactions.</p>
+    <p>myebcwallet.com is a client-side interface &amp; does not hold your keys. We cannot access accounts, recover keys, reset passwords, nor reverse transactions.</p>
     <p>
-      <span>If you go to a fake MyEtherWallet.com, they can. Check the URL. Use a bookmark.</span>
+      <span>If you go to a fake myebcwallet.com, they can. Check the URL. Use a bookmark.</span>
       <a role="link" tabindex="0" data-toggle="modal" data-target="#disclaimerModal"> You are responsible for your security. </a>
     </p>
   </div>

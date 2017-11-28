@@ -1,7 +1,7 @@
 <footer>
   <div class="container">
     <p>
-      <a href="https://www.myebcwallet.com" target="_blank" rel="noopener">MyEtherWallet.com</a>:
+      <a href="https://www.myebcwallet.com" target="_blank" rel="noopener">myebcwallet.com</a>:
 
       Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.
 
@@ -11,7 +11,7 @@
       <a aria-label="tayvano's github" href="https://github.com/tayvano" target="_blank" rel="noopener">tayvano</a>
       &middot;
       <a href="https://www.myebcwallet.com" target="_blank" rel="noopener" aria-label="my ether wallet.com">
-        MyEtherWallet.com
+        myebcwallet.com
       </a>
       &middot;
       <a href="https://github.com/kvhnuke/etherwallet" target="_blank" rel="noopener" aria-label="my ether wallet github">
@@ -30,7 +30,7 @@
         Facebook
       </a>
       &middot;
-      <a href="mailto:support@myetherwallet.com" target="_blank" rel="noopener" aria-label="email support at myetherwallet.com">
+      <a href="mailto:support@myebcwallet.com" target="_blank" rel="noopener" aria-label="email support at myebcwallet.com">
         Email
       </a>
       &middot;
@@ -50,8 +50,8 @@
   "@id":"#organization",
   "url":"https://www.myebcwallet.com/",
   "name":"MyEtherWallet",
-  "logo":"https://myetherwallet.com/images/myetherwallet-logo-banner.png",
-  "description": "MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.",
+  "logo":"https://myebcwallet.com/images/myetherwallet-logo-banner.png",
+  "description": "myebcwallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.",
   "sameAs":[
     "https://www.myebcwallet.com/",
     "https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm",

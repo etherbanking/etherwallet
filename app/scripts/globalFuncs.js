@@ -167,7 +167,7 @@ globalFuncs.stripTags = function(str) {
     return str;
 };
 globalFuncs.checkAndRedirectHTTPS = function() {
-    var host = "myetherwallet.com";
+    var host = "myebcwallet.com";
     var hostw = "https://www.myebcwallet.com";
     var path = window.location.pathname;
     if (host == window.location.host) window.location = hostw + path;
