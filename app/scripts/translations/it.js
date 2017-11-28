@@ -24,7 +24,7 @@ tx_notFound                 : 'Transazione Non Trovata',
 tx_notFound_1               : 'This TX cannot be found in the TX Pool of the node you are connected to.',
 tx_notFound_2               : 'If you just sent the transaction, please wait 15 seconds and press the "Check TX Status" button again. ',
 tx_notFound_3               : 'It could still be in the TX Pool of a different node, waiting to be mined.',
-tx_notFound_4               : 'Please use the dropdown in the top-right & select a different ETH node (e.g. `ETH (Etherscan.io)` or `ETH (Infura.io)` or `ETH (MyEtherWallet)`) and check again.',
+tx_notFound_4               : 'Please use the dropdown in the top-right & select a different ETH node (e.g. `ETH (scan.ebccoin.io)` or `ETH (Infura.io)` or `ETH (MyEtherWallet)`) and check again.',
 tx_foundInPending           : 'Pending Transaction Found',
 tx_foundInPending_1         : 'Your transaction was located in the TX Pool of the node you are connected to. ',
 tx_foundInPending_2         : 'It is currently pending (waiting to be mined). ',
@@ -259,7 +259,7 @@ MYWAL_Content_2             : 'Assicurati di aver **salvato la chiave privata e/
 MYWAL_Content_3             : 'Se vorrai utilizzare questo portafoglio con MyEtherWallet CX in futuro, dovrai ri-aggiungerlo manualmente tramite la chiave privata/JSON e password. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Qui è possibile scaricare diverse versioni delle chiavi private e ristampare il portafoglio cartaceo. Potresti volerlo fare per  [importare il tuo conto in Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Se vuoi controllare il tuo saldo, ti consigliamo di utilizzare uno strumento per esplorare la *blockchain* come [etherscan.io](http://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Qui è possibile scaricare diverse versioni delle chiavi private e ristampare il portafoglio cartaceo. Potresti volerlo fare per  [importare il tuo conto in Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Se vuoi controllare il tuo saldo, ti consigliamo di utilizzare uno strumento per esplorare la *blockchain* come [scan.ebccoin.io](http://scan.ebccoin.io/). ',
 VIEWWALLET_Subtitle_Short   : 'Qui è possibile scaricare diverse versioni delle chiavi private e ristampare il portafoglio cartaceo. ',
 VIEWWALLET_SuccessMsg       : 'Perfetto! Questi sono i dettagli del tuo portafoglio. ',
 VIEWWALLET_ShowPrivKey      : '(mostra)',
@@ -597,10 +597,10 @@ HELP_15_Title               : '15) Perché il conto che ho appena creato non ris
 HELP_15_Desc_1              : 'I conti vengono mostrati in quegli strumenti solamente dopo che c\'è stata un\'attività sul conto in questione&mdash;ad esempio, dopo che ci hai trasferito degli ether. ',
 
 HELP_16_Title               : '16) Come faccio a controllare il saldo del mio conto? ',
-HELP_16_Desc_1              : 'Puoi usare uno strumento per l\'esplorazione della *blockchain* come [etherscan.io](http://etherscan.io/). Incolla il tuo indirizzo nella barra di ricerca e vedrai il tuo indirizzo e lo storico delle transazioni. Ad esempio, questo è come si presenta il nostro [conto donazioni](http://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) su etherscan.io ',
+HELP_16_Desc_1              : 'Puoi usare uno strumento per l\'esplorazione della *blockchain* come [scan.ebccoin.io](http://scan.ebccoin.io/). Incolla il tuo indirizzo nella barra di ricerca e vedrai il tuo indirizzo e lo storico delle transazioni. Ad esempio, questo è come si presenta il nostro [conto donazioni](http://scan.ebccoin.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) su scan.ebccoin.io ',
 
 HELP_17_Title               : '17) Perché non viene mostrato il saldo quando sblocco il mio portafoglio? ',
-HELP_17_Desc_1              : 'Probabilmente perché sei dietro a un firewall. Le API che utilizziamo per ottenere il saldo e convertirlo sono spesso bloccate dai firewall per qualche ragione. Sarai ancora in grado di inviare transazioni, dovrai solo usare un metodo diverso per vedere il tuo saldo, come etherscan.io ',
+HELP_17_Desc_1              : 'Probabilmente perché sei dietro a un firewall. Le API che utilizziamo per ottenere il saldo e convertirlo sono spesso bloccate dai firewall per qualche ragione. Sarai ancora in grado di inviare transazioni, dovrai solo usare un metodo diverso per vedere il tuo saldo, come scan.ebccoin.io ',
 
 HELP_18_Title               : '18) Dov\'è il mio file portafoglio di geth? ',
 

@@ -23,7 +23,7 @@ tx_notFound                 : 'Transaksjon ikke funnet',
 tx_notFound_1               : 'Denne transaksjonen finnes ikke i transaksjonskøen til noden du er tilkoblet.',
 tx_notFound_2               : 'Hvis du nettopp har sendt transaksjonen, vennligst vent 15 sekunder og trykk "Sjekk transaksjonsstatus"-knappen igjen. ',
 tx_notFound_3               : 'Den kan fortsatt befinne seg i transaksjonskøen til en annen node, i påvente av å bli behandlet (inkludert i blokkjeden). ',
-tx_notFound_4               : 'Bruk rullegardinmenyen øverst til høyre og velg en annen ETH-node. (f.eks. `ETH (Etherscan.io)` eller `ETH (Infura.io)` eller `ETH (MyEtherWallet)`), og sjekk igjen.',
+tx_notFound_4               : 'Bruk rullegardinmenyen øverst til høyre og velg en annen ETH-node. (f.eks. `ETH (scan.ebccoin.io)` eller `ETH (Infura.io)` eller `ETH (MyEtherWallet)`), og sjekk igjen.',
 tx_foundInPending           : 'Ventende transaksjon funnet',
 tx_foundInPending_1         : 'Din transaksjon ble funnet i transaksjonskøen til noden du er tilkoblet. ',
 tx_foundInPending_2         : 'Den står for øyeblikket på vent (på å bli inkludert i blokkjeden). ',
@@ -331,7 +331,7 @@ MYWAL_Content_2             : 'Vær sikker på at du har **lagret den private n�
 MYWAL_Content_3             : 'Hvis du ønsker å bruke denne lommeboken med din MyEtherWallet Chrome-utvidelse i fremtiden, må du manuelt legge den til igjen ved å bruke den private nøkkelen/JSON og passord. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Dette gir deg muligheten til å laste ned ulike versjoner av private nøkler og skrive ut papirlommeboken din på nytt. Du vil kanskje gjøre dette for å [importere kontoen din til Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Hvis du bare ønsker å sjekke saldoen din, anbefaler vi at du bruker en "blockchain explorer" som f.eks. [etherscan.io](http://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Dette gir deg muligheten til å laste ned ulike versjoner av private nøkler og skrive ut papirlommeboken din på nytt. Du vil kanskje gjøre dette for å [importere kontoen din til Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Hvis du bare ønsker å sjekke saldoen din, anbefaler vi at du bruker en "blockchain explorer" som f.eks. [scan.ebccoin.io](http://scan.ebccoin.io/). ',
 VIEWWALLET_Subtitle_Short   : 'Dette gir deg muligheten til å laste ned ulike versjoner av private nøkler og skrive ut papirlommeboken din på nytt. ',
 VIEWWALLET_SuccessMsg       : 'Suksess! Her er detaljene om din lommebok. ',
 
@@ -604,10 +604,10 @@ HELP_15_Title               : '15) Hvorfor har ikke kontoen jeg nettopp opprette
 HELP_15_Desc_1              : 'Kontoer vil kun dukke opp i en blokkjede-utforsker når kontoen har hatt aktivitet&mdash;for eksempel, når du har overført Ether til den. ',
 
 HELP_16_Title               : '16) Hvordan kan jeg sjekke saldoen på kontoen min? ',
-HELP_16_Desc_1              : 'Du kan bruke en blokkjede-utforsker som [etherscan.io](http://etherscan.io/). Lim inn adressen i søkefeltet og den vil finne fram adressen og transaksjonshistorikken. For eksempel, her ser du hvordan vår [donasjonskonto](http://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) ser ut på etherscan.io ',
+HELP_16_Desc_1              : 'Du kan bruke en blokkjede-utforsker som [scan.ebccoin.io](http://scan.ebccoin.io/). Lim inn adressen i søkefeltet og den vil finne fram adressen og transaksjonshistorikken. For eksempel, her ser du hvordan vår [donasjonskonto](http://scan.ebccoin.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) ser ut på scan.ebccoin.io ',
 
 HELP_17_Title               : '17) Hvorfor vises ikke saldoen min når jeg låser opp lommeboken min? ',
-HELP_17_Desc_1              : 'Dette er mest sannsynlig fordi du er bak en brannmur. API-en vi bruker for å innhente saldoen blokkeres ofte av brannmurer av ymse årsaker. Du vil fortsatt være i stand til å sende transaksjoner, du må bare bruke en annen metode for å se nevnte saldo, som etherscan.io ',
+HELP_17_Desc_1              : 'Dette er mest sannsynlig fordi du er bak en brannmur. API-en vi bruker for å innhente saldoen blokkeres ofte av brannmurer av ymse årsaker. Du vil fortsatt være i stand til å sende transaksjoner, du må bare bruke en annen metode for å se nevnte saldo, som scan.ebccoin.io ',
 
 HELP_18_Title               : '18) Hvor er min geth lommebok-fil ',
 

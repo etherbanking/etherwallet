@@ -23,7 +23,7 @@ tx_notFound                 : 'Transactie Niet Gevonden',
 tx_notFound_1               : 'Deze TX werd niet gevonden in de TX Pool van de node waarmee je bent verbonden.',
 tx_notFound_2               : 'Als je deze transactie zojuist hebt verzonden, wacht dan eerst 15 seconden en druk nogmaals op de "Check TX Status" knop. ',
 tx_notFound_3               : 'De transactie zou nog steeds in de TX Pool van een andere node kunnen zitten, in afwachting om ge-mined te worden.',
-tx_notFound_4               : 'Gebruik het drop-down menu in de rechterbovenhoek & selecteer een andere ETH node (bijvoobeeld `ETH (Etherscan.io)` of `ETH (Infura.io)` of `ETH (MyEtherWallet)`) en check opnieuw.',
+tx_notFound_4               : 'Gebruik het drop-down menu in de rechterbovenhoek & selecteer een andere ETH node (bijvoobeeld `ETH (scan.ebccoin.io)` of `ETH (Infura.io)` of `ETH (MyEtherWallet)`) en check opnieuw.',
 tx_foundInPending           : 'Pending Transactie Gevonden',
 tx_foundInPending_1         : 'Je transactie is gevonden in de TX Pool van de node waarmee je bent verbonden. ',
 tx_foundInPending_2         : 'Je transactie is momenteel "pending" (in afwachting om ge-mined te worden). ',
@@ -323,7 +323,7 @@ MSG_info2                   : 'Voeg je nickname toe en waar je deze gebruikt zod
 MSG_info3                   : 'Geef een specifieke reden op voor de boodschap, zodat deze niet kan worden hergebruikt voor een ander doel. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Hiermee kun je verschillende versies van je prive sleutels downloaden en je papieren wallet opnieuw afdrukken. Je zou dit kunnen doen om [je account in Geth/Mist te importeren](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Als je enkel je saldo wilt raadplegen, adviseren we je om gebruik te maken van een blockchain explorer zoals [etherscan.io](http://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Hiermee kun je verschillende versies van je prive sleutels downloaden en je papieren wallet opnieuw afdrukken. Je zou dit kunnen doen om [je account in Geth/Mist te importeren](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Als je enkel je saldo wilt raadplegen, adviseren we je om gebruik te maken van een blockchain explorer zoals [scan.ebccoin.io](http://scan.ebccoin.io/). ',
 VIEWWALLET_Subtitle_Short   : 'Hiermee kun je verschillende versies van je prive sleutels downloaden en je papieren wallet opnieuw afdrukken. ',
 VIEWWALLET_SuccessMsg       : 'Gelukt! Hier zijn je wallet details. ',
 VIEWWALLET_ShowPrivKey      : '(laat zien)',
@@ -601,10 +601,10 @@ HELP_15_Title               : '15) Hoe komt het dat het wallet wat ik zojuist he
 HELP_15_Desc_1              : 'Adresen zullen enkel in een blockchain explorer worden weergegeven zodra er activiteit op een account heeft plaats gevonden. Bijvoorbeeld, zodra je er wat Ether naar toe verzonden hebt. ',
 
 HELP_16_Title               : '16) Hoe check ik het saldo van mijn account? ',
-HELP_16_Desc_1              : 'Je kunt hiervoor een blockchain explorer gebruiken zoals bijvoorbeeld [etherscan.io](http://etherscan.io/). Plak daar je adres in de zoekbalk en je adres en transactie geschiedenis zullen worden getoond. Bekijk bijvoobeeld hoe ons [donatie account](http://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8)  eruit ziet op etherscan.io ',
+HELP_16_Desc_1              : 'Je kunt hiervoor een blockchain explorer gebruiken zoals bijvoorbeeld [scan.ebccoin.io](http://scan.ebccoin.io/). Plak daar je adres in de zoekbalk en je adres en transactie geschiedenis zullen worden getoond. Bekijk bijvoobeeld hoe ons [donatie account](http://scan.ebccoin.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8)  eruit ziet op scan.ebccoin.io ',
 
 HELP_17_Title               : '17) Waarom wordt mijn saldo niet weergegeven nadat ik mijn wallet heb ontsleuteld? ',
-HELP_17_Desc_1              : 'Dit wordt zeer waarschijnlijk veroorzaakt door het feit dat je achter een firwall zit. De API waarvan we gebruik maken om je saldo op te halen en te converteren wordt vaak geblokkeerd door firewalls om wat voor reden dan ook. Het is nog steeds mogelijk om transacties te verzenden, je hebt enkel een andere methode nodig om je saldo the checken, zoals bijvoorbeeld etherscan.io ',
+HELP_17_Desc_1              : 'Dit wordt zeer waarschijnlijk veroorzaakt door het feit dat je achter een firwall zit. De API waarvan we gebruik maken om je saldo op te halen en te converteren wordt vaak geblokkeerd door firewalls om wat voor reden dan ook. Het is nog steeds mogelijk om transacties te verzenden, je hebt enkel een andere methode nodig om je saldo the checken, zoals bijvoorbeeld scan.ebccoin.io ',
 
 HELP_18_Title               : '18) Waar is mijn Geth wallet bestand? ',
 

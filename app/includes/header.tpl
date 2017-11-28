@@ -50,7 +50,7 @@
       }
       <div class="tagline">
 
-        <span>v3.10.0</span>
+
 
         <span class="dropdown dropdown-lang" ng-cloak>
           <a tabindex="0"  aria-haspopup="true" aria-expanded="false" aria-label="change language. current language {{curLang}}" class="dropdown-toggle  btn btn-white" ng-click="dropdown = !dropdown">{{curLang}}<i class="caret"></i></a>
@@ -105,16 +105,9 @@
         <span class="dropdown dropdown-node" ng-cloak>
           <a tabindex="0" aria-haspopup="true" aria-label="change node. current node {{curNode.name}} node by {{curNode.service}}" class="dropdown-toggle  btn btn-white" ng-click="dropdownNode = !dropdownNode">
             Node: {{curNode.name}} <small>({{curNode.service}})</small>
-            <i class="caret"></i>
+
           </a>
-          <ul class="dropdown-menu" ng-show="dropdownNode">
-            <li ng-repeat="(key, value) in nodeList"><a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)">
-              {{value.name}}
-              <small> ({{value.service}}) </small>
-              <img ng-show="value.service=='Custom'" src="images/icon-remove.svg" class="node-remove" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)"/>
-            </a></li>
-           <!-- <li><a ng-click="customNodeModal.open(); dropdownNode = !dropdownNode;"> Add Custom Node </a></li>-->
-          </ul>
+
         </span>
 
       </div>

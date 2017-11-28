@@ -23,7 +23,7 @@ tx_notFound                 : 'Transaction Not Found',
 tx_notFound_1               : 'This TX cannot be found in the TX Pool of the node you are connected to.',
 tx_notFound_2               : 'If you just sent the transaction, please wait 15 seconds and press the "Check TX Status" button again. ',
 tx_notFound_3               : 'It could still be in the TX Pool of a different node, waiting to be mined.',
-tx_notFound_4               : 'Please use the dropdown in the top-right & select a different ETH node (e.g. `ETH (Etherscan.io)` or `ETH (Infura.io)` or `ETH (MyEtherWallet)`) and check again.',
+tx_notFound_4               : 'Please use the dropdown in the top-right & select a different ETH node (e.g. `ETH (scan.ebccoin.io)` or `ETH (Infura.io)` or `ETH (MyEtherWallet)`) and check again.',
 tx_foundInPending           : 'Pending Transaction Found',
 tx_foundInPending_1         : 'Your transaction was located in the TX Pool of the node you are connected to. ',
 tx_foundInPending_2         : 'It is currently pending (waiting to be mined). ',
@@ -320,7 +320,7 @@ MSG_info2                   : '타인이 사용하지 못하도록 당신의 닉
 MSG_info3                   : '다른 용도로 사용되는 것을 막으려면 세부적인 내용을 메시지에 포함해주세요. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : '다른 버전의 개인 키를 다운로드하거나 종이 지갑 정보를 다시 인쇄할 수 있습니다. [계좌를 Geth/Mist로 가져오기](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)를 진행할 때 필요합니다. 잔액을 확인하려면 [etherscan.io](http://etherscan.io/)과 같은 블록체인 조회 서비스를 사용하는 것을 권장합니다. ',
+VIEWWALLET_Subtitle         : '다른 버전의 개인 키를 다운로드하거나 종이 지갑 정보를 다시 인쇄할 수 있습니다. [계좌를 Geth/Mist로 가져오기](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)를 진행할 때 필요합니다. 잔액을 확인하려면 [scan.ebccoin.io](http://scan.ebccoin.io/)과 같은 블록체인 조회 서비스를 사용하는 것을 권장합니다. ',
 VIEWWALLET_Subtitle_Short   : '다른 버전의 개인 키를 다운로드하거나 종이 지갑 정보를 다시 인쇄 할 수 있습니다. ',
 VIEWWALLET_SuccessMsg       : '성공했습니다! 지갑의 세부사항은 다음과 같습니다. ',
 VIEWWALLET_ShowPrivKey      : '(보기) ',
@@ -594,10 +594,10 @@ HELP_15_Title               : '15) 방금 만든 계정이 블록체인 탐색�
 HELP_15_Desc_1              : '계좌는 거래 활동이 있을 경우에만 블록체인 탐색기에 표시됩니다. 예를 들어, 이더리움을 계좌로 이동시키면 계좌가 활성화됩니다. ',
 
 HELP_16_Title               : '16) 내 계좌의 잔액을 어떻게 확인하나요? ',
-HELP_16_Desc_1              : '[etherscan.io] (http://etherscan.io/) 와 같은 블록체인 탐색기를 사용할 수 있습니다. 주소를 검색 창에 붙여넣으면 주소와 거래 내역이 표시됩니다. 예를 들어, 우리의 [기부 계정]은 (http://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) 과 같습니다. ',
+HELP_16_Desc_1              : '[scan.ebccoin.io] (http://scan.ebccoin.io/) 와 같은 블록체인 탐색기를 사용할 수 있습니다. 주소를 검색 창에 붙여넣으면 주소와 거래 내역이 표시됩니다. 예를 들어, 우리의 [기부 계정]은 (http://scan.ebccoin.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) 과 같습니다. ',
 
 HELP_17_Title               : '17) 내 지갑에서 잔액이 표시되지 않는 이유는 뭔가요? ',
-HELP_17_Desc_1              : '그 이유는 방화벽 때문입니다. 우리가 잔액 정보를 얻고 잔액 정보를 변환하는 데 사용하는 API는 어떤 이유로 든 방화벽에 의해 차단되는 경우가 많습니다. 사용자는 계속해서 트랜잭션을 보낼 수 있습니다. 당신은 단지 잔액을 확인하기 위해 etherscan.io 블록체인 탐색 사이트와 같은 다른 방법을 사용해야 될 수 있습니다. ',
+HELP_17_Desc_1              : '그 이유는 방화벽 때문입니다. 우리가 잔액 정보를 얻고 잔액 정보를 변환하는 데 사용하는 API는 어떤 이유로 든 방화벽에 의해 차단되는 경우가 많습니다. 사용자는 계속해서 트랜잭션을 보낼 수 있습니다. 당신은 단지 잔액을 확인하기 위해 scan.ebccoin.io 블록체인 탐색 사이트와 같은 다른 방법을 사용해야 될 수 있습니다. ',
 
 HELP_18_Title               : '18) 내 geth 지갑 파일이 어디 있나요? ',
 
