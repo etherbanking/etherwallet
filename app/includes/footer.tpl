@@ -14,7 +14,7 @@
 
     <section class="footer--left">
 
-      <a href="https://www.myebcwallet.com/"><img src="images/logo-myetherwallet.svg" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"/></a>
+      <a href="https://www.myebcwallet.com/"><img src="images/logo1.png" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"/></a>
 
 
       <p> &copy; 2017 MyEbcWallet </p>
