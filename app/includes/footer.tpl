@@ -14,7 +14,7 @@
 
     <section class="footer--left">
 
-      <a href="https://www.myetherwallet.com/"><img src="images/logo-myetherwallet.svg" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"/></a>
+      <a href="https://www.myebcwallet.com/"><img src="images/logo-myetherwallet.svg" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"/></a>
 
 
       <p> &copy; 2017 MyEbcWallet </p>
@@ -22,7 +22,6 @@
     </section>
 
     <section class="footer--cent">
-
 
 
         <h5><i aria-hidden="true">💝</i> Donations are always appreciated!</h5>
@@ -37,7 +36,7 @@
 
     <section class="footer--righ">
 
-      <p><a aria-label="website via my ether wallet dot com" href="https://www.MyEtherWallet.com" target="_blank" rel="noopener" role="link" tabindex="0">
+      <p><a aria-label="website via my ether wallet dot com" href="https://www.myebcwallet.com" target="_blank" rel="noopener" role="link" tabindex="0">
         MyEbcWallet.com
       </a></p>
 

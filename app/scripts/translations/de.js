@@ -60,7 +60,7 @@ GEN_Unlock                  : 'Unlock your wallet to see your address',
 GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `21 GWEI`.',
 GAS_LIMIT_Desc              : 'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.',
 NONCE_Desc                  : 'The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
-TXFEE_Desc                  : 'Die TX Gebühr wird den Miner(n) bezahlt, für das inkludieren deiner Transaktion in einem Bock. Es wird durch `gas limit` * `gas price` berechnet. [Du kannst GWEI -> ETH hier umwandeln](https://www.myetherwallet.com/helpers.html)',
+TXFEE_Desc                  : 'Die TX Gebühr wird den Miner(n) bezahlt, für das inkludieren deiner Transaktion in einem Bock. Es wird durch `gas limit` * `gas price` berechnet. [Du kannst GWEI -> ETH hier umwandeln](https://www.myebcwallet.com/helpers.html)',
 
 
 
@@ -370,7 +370,7 @@ ERROR_24                    : 'Bitte gebe eine gültige Portnummer ein ',
 ERROR_25                    : 'Bitte gebe eine gültige Chain-ID ein ',
 ERROR_26                    : 'Bitte gebe eine gültige ABI ein ',
 ERROR_27                    : 'Mindestbetrag: 0.01. Maximaler Betrag: ',
-ERROR_28                    : '**Du benötigst deine Keystore-Datei & das Passwort** (oder den privaten Schlüssel) um künftig auf dein Wallet zugreifen zu können. Bitte sichere diese Datei daher auf einem externen Medium! Es gibt KEINE Möglichkeit, ein Wallet wiederherzustellen, wenn du diese Datei und das Passwort nicht sicherst. Lies die [Hilfe-Seite](https://www.myetherwallet.com/#help) für weitere Informationen. ',
+ERROR_28                    : '**Du benötigst deine Keystore-Datei & das Passwort** (oder den privaten Schlüssel) um künftig auf dein Wallet zugreifen zu können. Bitte sichere diese Datei daher auf einem externen Medium! Es gibt KEINE Möglichkeit, ein Wallet wiederherzustellen, wenn du diese Datei und das Passwort nicht sicherst. Lies die [Hilfe-Seite](https://www.myebcwallet.com/#help) für weitere Informationen. ',
 ERROR_29                    : 'Bitte gebe einen gültigen Benutzer und Password ein ',
 ERROR_30                    : 'Bitte gebe einen gültigen ENS Namen ein ',
 ERROR_31                    : 'Bitte gebe einen gültigen Geheime Phasre ein ',
@@ -416,16 +416,16 @@ Translator_Desc             : 'Vielen Dank an unsere ÜbersetzerInnen ',
 TranslatorName_1            : 'christoph2806 · K · ',
 TranslatorAddr_1            : '',
 /* Translator 1             : Insert Comments Here */
-TranslatorName_2            : '[mawalu](https://www.myetherwallet.com/?gaslimit=21000&to=0xA6e9A24981aFB71f96C7330618139a7B34BCdEc3&value=1.0#send-transaction) · ',
+TranslatorName_2            : '[mawalu](https://www.myebcwallet.com/?gaslimit=21000&to=0xA6e9A24981aFB71f96C7330618139a7B34BCdEc3&value=1.0#send-transaction) · ',
 TranslatorAddr_2            : '0xA6e9A24981aFB71f96C7330618139a7B34BCdEc3 ',
 /* Translator 2             : Insert Comments Here */
-TranslatorName_3            : '[huhn_solo](https://www.myetherwallet.com/?gaslimit=21000&to=0x1DAd1765381460db9A44846cDfA6f74c65A06B77&value=1.0#send-transaction) · ',
+TranslatorName_3            : '[huhn_solo](https://www.myebcwallet.com/?gaslimit=21000&to=0x1DAd1765381460db9A44846cDfA6f74c65A06B77&value=1.0#send-transaction) · ',
 TranslatorAddr_3            : '0x1DAd1765381460db9A44846cDfA6f74c65A06B77 ',
 /* Translator 3             : Insert Comments Here */
-TranslatorName_4            : '[FelixA](https://www.myetherwallet.com/?gaslimit=21000&to=0xb6999051b0Bfad32E192e107181E0ac72bE7EE3D&value=1.0#send-transaction) · ',
+TranslatorName_4            : '[FelixA](https://www.myebcwallet.com/?gaslimit=21000&to=0xb6999051b0Bfad32E192e107181E0ac72bE7EE3D&value=1.0#send-transaction) · ',
 TranslatorAddr_4            : '0xb6999051b0Bfad32E192e107181E0ac72bE7EE3D ',
 /* Translator 4             : Insert Comments Here */
-TranslatorName_5            : 'danielsun174 · ffidan61 · [u/Preisschild](https://www.myetherwallet.com/?gaslimit=21000&to=0x700Eb9142a0CC709fce80709cfbF5Ac25438c584&value=0.1#send-transaction) ',
+TranslatorName_5            : 'danielsun174 · ffidan61 · [u/Preisschild](https://www.myebcwallet.com/?gaslimit=21000&to=0x700Eb9142a0CC709fce80709cfbF5Ac25438c584&value=0.1#send-transaction) ',
 TranslatorAddr_5            : '',
 /* Translator 5             : Insert Comments Here */
 
@@ -643,7 +643,7 @@ HELP_Sec_Title              : 'Security ',
 HELP_Sec_Desc_1             : 'If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears. ',
 HELP_Sec_Desc_2             : 'We\'ve been up and running since August 2015. If you search for ["myetherwallet" on reddit](https://www.reddit.com/search?q=myetherwallet), you can see numerous people who use us with great success. ',
 HELP_Sec_Desc_3             : 'We aren\'t going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" pages are completely client-side. That means that all the code is executed on ** your computer** and it is never saved and transmitted anywhere. ',
-HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.myetherwallet.com](https://www.myetherwallet.com). ',
+HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.myebcwallet.com](https://www.myebcwallet.com). ',
 HELP_Sec_Desc_5             : 'For generating wallets, you can download the [source code and run it locally](https://github.com/kvhnuke/etherwallet/releases/latest). See #5 above. ',
 HELP_Sec_Desc_6             : 'Generate a test wallet and check and see what network activity is happening. The easiest way for you to do this is to right click on the page and click "inspect element". Go to the "Network" tab. Generate a test wallet. You will see there is no network activity. You may see something happening that looks like data:image/gif and data:image/png. Those are the QR codes being generated...on your computer...by your computer. No bytes were transferred. ',
 HELP_Sec_Desc_8             : 'If you do not feel comfortable using this tool, then by all means, do not use it. We created this tool as a helpful way for people to generate wallets and make transactions without needing to dive into command line or run a full node. Again, feel free to reach out if you have concerns and we will respond as quickly as possible. Thanks! ',

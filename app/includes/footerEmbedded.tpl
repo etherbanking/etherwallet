@@ -1,7 +1,7 @@
 <footer>
   <div class="container">
     <p>
-      <a href="https://www.myetherwallet.com" target="_blank" rel="noopener">MyEtherWallet.com</a>:
+      <a href="https://www.myebcwallet.com" target="_blank" rel="noopener">MyEtherWallet.com</a>:
 
       Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.
 
@@ -10,7 +10,7 @@
       &amp;
       <a aria-label="tayvano's github" href="https://github.com/tayvano" target="_blank" rel="noopener">tayvano</a>
       &middot;
-      <a href="https://www.MyEtherWallet.com" target="_blank" rel="noopener" aria-label="my ether wallet.com">
+      <a href="https://www.myebcwallet.com" target="_blank" rel="noopener" aria-label="my ether wallet.com">
         MyEtherWallet.com
       </a>
       &middot;
@@ -48,12 +48,12 @@
   "@context":"http://schema.org",
   "@type":"Organization",
   "@id":"#organization",
-  "url":"https://www.myetherwallet.com/",
+  "url":"https://www.myebcwallet.com/",
   "name":"MyEtherWallet",
   "logo":"https://myetherwallet.com/images/myetherwallet-logo-banner.png",
   "description": "MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.",
   "sameAs":[
-    "https://www.myetherwallet.com/",
+    "https://www.myebcwallet.com/",
     "https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
     "https://www.facebook.com/MyEtherWallet/",
     "https://twitter.com/myetherwallet",
