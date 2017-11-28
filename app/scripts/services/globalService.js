@@ -34,6 +34,7 @@ var tabs = {
     mew: true,
     cx: true
   },
+
   contracts: {
     id: 4,
     name: "NAV_Contracts",
@@ -41,6 +42,7 @@ var tabs = {
     mew: true,
     cx: true
   },
+
   txStatus: {
     id: 5,
     name: "NAV_CheckTxStatus",
