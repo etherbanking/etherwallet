@@ -604,7 +604,7 @@ HELP_15_Title               : '15) Pourquoi le compte que je viens de créer n\'
 HELP_15_Desc_1              : 'Les comptes n\'apparaissent dans un explorateur de blockchain qu\'après une activité y ait eu lieu comme, par exemple, quand on y a transféré de l\'Ether. ',
 
 HELP_16_Title               : '16) Comment puis-je vérifier le solde de mon compte ? ',
-HELP_16_Desc_1              : 'Vous pouvez utiliser un explorateur de blockchain comme [scan.ebccoin.io](http://scan.ebccoin.io/). Collez votre adresse dans la barre de recherche et cela récupérera votre solde et l\'historique de vos transactions. Par exemple, voici ce que montre notre [compte de donations](http://scan.ebccoin.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) sur scan.ebccoin.io ',
+HELP_16_Desc_1              : 'Vous pouvez utiliser un explorateur de blockchain comme [scan.ebccoin.io](http://scan.ebccoin.io/). Collez votre adresse dans la barre de recherche et cela récupérera votre solde et l\'historique de vos transactions. Par exemple, voici ce que montre notre [compte de donations](http://scan.ebccoin.io/account/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) sur scan.ebccoin.io ',
 
 HELP_17_Title               : '17) Pourquoi mon solde n\'apparaît-il pas quand je déverrouille mon portefeuille ? ',
 HELP_17_Desc_1              : 'C\'est probablement dû au fait que vous vous trouvez derrière un firewall. L\'API que nous utilisons pour obtenir le solde et converir celui-ci est souvent bloquée par des firewalls pour des raisons diverses. Vous êtes toujours capable d\'envoyer des transactions mais il vous faut employer une autre méthode pour voir le solde, comme scan.ebccoin.io ',
